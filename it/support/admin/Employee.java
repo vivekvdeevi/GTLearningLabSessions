@@ -13,25 +13,4 @@ public class Employee {
 
 	}
 
-	/**
-	 * @return the firstName
-	 */
-	public String getFirstName() {
-		return firstName;
-	}
-
-	/**
-	 * @return the lastName
-	 */
-	public String getLastName() {
-		return lastName;
-	}
-
-	/**
-	 * @return the deptInput
-	 */
-	public String getDeptInput() {
-		return deptInput;
-	}
-	
 }
