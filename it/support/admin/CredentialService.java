@@ -14,13 +14,13 @@ public class CredentialService extends Employee {
 	public void createEmailAddress() {
 		emailAddress = firstName + lastName + "@" + deptInput + "." + "abc.com";
 		System.out.println("Dear "+firstName+" your generated credentials are as follows");
-		System.out.println("Email Address: "+emailAddress);
+		System.out.println("Email Address ---> "+emailAddress);
 	}
 
 	public void createCredentials() {
 		byte n = 8;
-		System.out.println("Credentials: ");
-		System.out.println(getAlphaNumericString(n));
+		System.out.println("Credentials---> "+getAlphaNumericString(n));
+		//System.out.println(getAlphaNumericString(n));
 	}
 
 	static String getAlphaNumericString(byte n) {
